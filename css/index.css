@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
+:root {
+  --main-font: "Germania One", sans-serif;
+  --color-red: red;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+p,
+div,
+nav,
+a {
+  margin: 0;
+  padding: 0;
+}
+header .logo h3 {
+  font-family: var(--main-font);
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px 10px;
+  /*border: 1px solid var(--color-red);*/
+  color: var(--color-red);
+}
+header .logo {
+  text-decoration: none;
+}
+header .left-name h3 {
+  font-size: 3rem;
+  font-family: var(--main-font);
+  color: var(--color-red);
+}
+header .head {
+  display: grid;
+  grid-template-columns: 5fr 3fr 2fr 1fr;
+}
+header .left,
+header .center,
+header .rigth {
+  border: 1px solid rgb(168, 158, 158);
+}
+header .left-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .hot-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .hot-number p {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+header .hot-number a,
+header .header-list a,
+header .left-name p {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+header .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header .center p {
+  font-size: 14px;
+  color: gray;
+}
+header .rigth {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .rigth img,
+header .center img {
+  width: 30px;
+  height: 30px;
+}
+header .cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 37, 37);
+}
+header .cart img {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
